@@ -11,22 +11,56 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome!</h1>
-      <p>Joe Kimlinger comes from a background of software consulting in which he gained experience in full stack software development and data science.  He is always looking for ways to use his technical skillset to make the world a better place.  Below are some of the things he's been working on...</p>
+      <h1 id="Welcome">Welcome!</h1>
+      <p>Joe Kimlinger comes from a background of software consulting in which he gained experience in full stack software development and data science.  In his free time, he's studies for cloud architect certifications and works on projects to sharpen his skills.  Here's what he's been working on...</p>
 
-      <ul class="list-group">
-          <li class="list-group-item"><a href="#Projects">Projects</a></li>
-          <li class="list-group-item"><a href="#Certifications">Certifications</a></li>
-      </ul>
+      <div class="container">
+        <h6>Table of Contents</h6>
+        <ul class="list-group">
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Certifications">Certifications</a></li>
+        </ul>
+      </div>
 
       <hr/>
 
-      <h2 id="Projects">Projects</h2>
-      <h4>Student Tracker</h4>
-      <p>Technologies: Node, Gmail API, NodeMailer package</p>
-      <p>Link:</p><a href="https://github.com/joe-kimlinger/student-tracker-node">Student Tracker Node</a>
-      <p>The student tracker is a script that reads from a spreadsheet containing a list of students and their performance over multiple IPs.  The script send emails to each student in the csv and customizes the student to give an indication of their progress moving into the next module.</p>
-      <h2 id="Certifications">Certifications</h2>
+      <h2 id="Projects" class="pb-3">Projects</h2>
+      <div class="container pb-2">
+        <h5>Student Tracker</h5>
+        <p>Technologies: Node, Javascript, Gmail API, NodeMailer package</p>
+        <p>Link: <a href="https://github.com/joe-kimlinger/student-tracker-node">Student Tracker Node</a></p>
+        <p>Description: The student tracker is a script that reads from a spreadsheet containing a list of students and their performance over multiple IPs.  The script send emails to each student in the csv and customizes the student to give an indication of their progress moving into the next module.</p>  
+      </div>
+      <div class="container pb-2">
+        <h5>Book Rental Store</h5>
+        <p>Technologies: Django, Flask, Python, pytest, gitHub workflows</p>
+        <p>Link: <a href="https://github.com/joe-kimlinger/book-rental-store">Book Rental Store</a></p>
+        <p>The Book Rental Store is an application created with Django that allows users to rent books that are priced based on their genre.  A seperate API, created using Flask, provides the same functionality without the web interface.  The application was developed over the course of 10 days in late June 2021 and includes GitHub workflows to run tests and linting on pull requests.</p>  
+      </div>
+      <h2 id="Certifications" class="pb-3">Certifications</h2>
+      <div class="container pb-2">
+        <h5>Azure Solutions Architect Expert</h5>
+        <p>Date completed: May 2021</p>
+        <p>Link: <a href="https://docs.microsoft.com/en-us/learn/certifications/azure-solutions-architect/">Certification details</a></p>
+        <p>The Azure Solutions Architect Expert certification requires the passing of exams AZ303 and AZ304 and tests the following skills:</p>  
+        <ul>
+          <li>Implement and monitor an Azure infrastructure</li>
+          <li>Implement management and security solutions</li>
+          <li>Implement solutions for apps</li>
+          <li>Implement and manage data platforms</li>
+          <li>Design monitoring</li>
+          <li>Design identity and security</li>
+          <li>Design data storage</li>
+          <li>Design business continuity</li>
+          <li>Design infrastructure</li>
+        </ul>
+      </div>
+      <div class="container pb-2">
+        <h5>AWS Solutions Architect Associate</h5>
+        <p>Date completed: June 2020</p>
+        <p>Link: <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/">Certification details</a></p>
+        <p>The AWS Solutions Architect Associate certification requires the passing of exam SAA-C02 which "validates the ability to design and implement distributed systems on AWS."</p>  
+      </div>
     </div>
     <!-- Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
