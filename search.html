@@ -3594,7 +3594,6 @@
       <div class="NDnoQ Q3DXx">
         <form
           class="tsf"
-          action="/search"
           id="tsf"
           autocomplete="off"
           data-submitfalse="q"
@@ -3700,9 +3699,9 @@
                       autocapitalize="off"
                       autocomplete="off"
                       autocorrect="off"
-                      id="APjFqb"
+                      id="searchInput"
                       maxlength="2048"
-                      name="q"
+                      name="search"
                       role="combobox"
                       rows="1"
                       spellcheck="false"
@@ -4376,17 +4375,6 @@
                 }
               }).call(this);
             </script>
-          </div>
-          <div id="tophf">
-            <input
-              name="sca_esv"
-              value="ebfe579d5b8c900a"
-              type="hidden"
-            /><input
-              name="rlz"
-              value="1C5CHFA_enUS1047US1047"
-              type="hidden"
-            /><input value="vSlJZov4E7utptQPxqCruAQ" name="ei" type="hidden" />
           </div>
         </form>
         <div class="Q3DXx">
@@ -8244,9 +8232,8 @@
     </script>
     <script nonce="zBHWVSmNEjlnqZXVlTyVNw">
       const params = new URLSearchParams(window.location.search);
-      console.log(window.location);
       const q = params.get('search');
-      document.getElementById('APjFqb').value = q;
+      document.getElementById('searchInput').value = q;
       document.getElementById('searchResultText').innerHTML = q;
     </script>
     <link
